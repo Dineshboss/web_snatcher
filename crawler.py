@@ -29,12 +29,5 @@ def make_request(url):
             print(link)
             make_request(link)
 
-
-
-
-
-
-
-
 options=arguments()
 make_request(options.url)
